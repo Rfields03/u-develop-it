@@ -12,9 +12,9 @@ app.use(express.json());
 // Connect to database
 const db = mysql.createConnection(
   {
-    host: 'gmail.com',
+    host: 'localhost',
     // Your MySQL username,
-    user: 'rfields03',
+    user: 'root',
     // Your MySQL password
     password: 'Af983426!@',
     database: 'election'
